@@ -1,0 +1,13 @@
+{
+  "contract": {
+    "signerAddress": "0xa14796784153d294F1BB5Cab47aE19fc0D25b6E1",
+    "abi": [
+      "event EventTask(uint256 indexed id, uint256 date, string content, string author, bool done, address owner)",
+      "function createTask(string _content, string _author)",
+      "function getTask(uint256 _id) view returns (tuple(uint256 id, uint256 date, string content, string author, bool done, address owner))",
+      "function getTasks() view returns (tuple(uint256 id, uint256 date, string content, string author, bool done, address owner)[])",
+      "function ids() view returns (uint256)",
+      "function updateTask(uint256 _id, string _content, string _author) returns (tuple(uint256 id, uint256 date, string content, string author, bool done, address owner))"
+    ]
+  }
+}
